@@ -1,0 +1,9 @@
+import personajes.*
+import frutas.*
+
+test "Martin compra y comer una manzana" {
+	martin.comprar(manzana)
+	martin.comer()
+	assert.equals(107,martin.energia())
+	assert.equals(vasoDeAgua,martin.despensa())
+}
