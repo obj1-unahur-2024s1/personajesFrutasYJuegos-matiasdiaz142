@@ -10,6 +10,8 @@ object martin {
 	
 	method energia() = energia
 	method despensa() = despensa
+	method hambre() = hambre
+	method cantActividadesFisicas() = cantActividadesFisicas
 	method esFeliz(){
 		return ((energia > 80) or (cantActividadesFisicas >= 2)) and (not hambre)
 	}
